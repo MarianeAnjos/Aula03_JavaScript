@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Aula JavaScript</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <h2>Aula JavaScript</h2>
+      <div style="height: 200px; widht:200px; background-color:pink; cursor: pointer" onclick="alert('este é o evento de click')">
+        Evento
+      </div>
+    <script>
+      // uma linha de comentário 
+      // atalho ctrl + ;
+      /*    
+          Comentária de 
+            multiplas 
+              linhas
+            atalho alt + shift + a
+      */
+
+      // impressão de conteúdo com javascript
+        document.write('<h1> Meu Primeiro script </h1>')
+
+      // caixas de dialogo
+      // alert('Olá desenvolvedor!')
+
+      // var nome = prompt('Digite o seu nome:')
+
+      // document.write('<h2>' + nome + '</h2>')
+
+      // Tipos de variáveis
+      // String - texto
+      // utilizamos as aspas simples ou duplas para indicar o começo e fim da string
+      //var texto = " Conjunto de caracteres "
+
+      //texto = 'nova mensagem'
+      //texto = "exemplo com 'aspas' dentro"
+      
+      // ferramenta de depuração
+      // console.log(texto)
+
+      // Number - numericos
+     // var numero = 10 // Inteiro
+      //numero = 8.5 //float
+      
+      // console.log(typeof(numero))
+
+      // Boolean
+      // Verdadeiro e falso
+
+      //var teste = true // false
+      // console.log(typeof(teste))
+
+      // Tipos primitivos NULL / UNDEFINED
+
+      // var teste2 = null
+      // console.log(typeof(teste2))
+
+      // controle de fluxo
+      // if / else
+
+      //if(/* condição */ true || false){
+        // escopo do bloco if
+        // ele vai ser executado se a condição for verdadeira
+      //} else { // opcional
+        // escopo do else
+        // vai ser executado se a condição for falsa
+      //}
+
+
+      // multiplos testes
+     // if(/* condição 1 */ true || false){
+        // escopo do bloco if
+        // ele vai ser executado se a condição 1 for verdadeira
+     // } else if(/* condição 2 */ true || false){
+        // escopo do bloco if
+        // ele vai ser executado se a condição 2 for verdadeira
+     // } else { // opcional
+        // escopo do else
+        // vai ser executado se as condições anteriores forem falsas
+     // }
+
+      // Operadores de comparação
+      // igual ==
+      // identico ===
+      // diferente !=
+      // menor <
+      // maior >
+      // menor ou igual <=
+      //  mairo ou igual >=
+
+      // console.log(4 > 3)
+
+      // if( 4 > 3 ){
+      //   document.write('Verdadeiro')
+      // } else {
+      //   document.write('Falso')
+      // }
+
+      // Operadores Lógicos
+      // AND && - Todas as condições precisam ser verdadeiras
+      // OR || - 
+
+      // exemplo AND
+
+      // var login = prompt('digite o usuário:')
+      // var senha = prompt('digite a senha:')
+
+      // if( login == 'jailma' && senha == '1234'){
+      //   document.write('Usuário logado')
+      // } else {
+      //   document.write('Usuário ou senha inválida!')
+      // }
+
+      // exemplo OR
+      // var paulo = confirm('Prof. Paulo está online?')
+      // console.log(paulo)
+      // var jailma = confirm('Prof(a). Jailma está online?')
+      // console.log(jailma)
+
+      // if( paulo == true || jailma == true){
+      //   document.write('Tem aula online')
+      // } else {
+      //   document.write('Não tem aula online')
+      // }
+
+      //operadores aritimeticos 
+      // soma +
+      //multplicação * 
+      // divisão /
+      // resto %
+
+    
+      //var num1 = prompt('Digite um número')
+      //var num2 = prompt('Digite um número')
+      //console.log(typeof(num1))
+
+      //conversão de string para number
+      //num1 = Number(num1)
+      //num2 = Number(num2)
+      //console.log(typeof(num1))
+      
+      //var resultado = num1 + num2
+
+      //document.write(resultado)
+      
+      //FUNÇÕES
+      // obs: nome de variaveis e funções segue o padrão camelCase
+      //function nomeDaFuncao(parametro1, parametroN){
+        //escopo da função
+        // logica
+       // return true // retorna algo se necessario
+      //}
+
+      //declaração da função
+      function soma( num1, num2){
+      
+
+       // var resultado = num1 + num2
+       // document.write('A operação soma de ' + num1 +' com ' + num2 + ' é igual a '+ resultado)
+     // }
+
+      //Template String
+      //`` delimita a nossa tamplate string
+      document.write(` A operação soma de ${num1} com ${num2} é igual a ${num1 + num2}`)
+        return num1 + num2 
+
+      }
+      // chamada da função
+
+      //var fator1 = Number(prompt('Digite o fator1'))
+      //var fator2 = Number(prompt('Digite o fator2'))
+      
+      //var resultado = soma(fator1, fator2)
+      //console.log(resultado)
+
+
+      
+      //Eventos JAVASCRIP
+      
+      
+
+
+
+      
+
+      
+      
+
+    
+    </script>
+  </body>
+</html>
